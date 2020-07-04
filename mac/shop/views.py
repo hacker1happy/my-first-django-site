@@ -21,7 +21,7 @@ def tracker(request):
     return HttpResponse("We are at tracker")
 
 def search(request):
-    return HttpResponse("We are at search")
+    return HttpResponse("We are at search and please search me.")
 
 def productView(request):
     return HttpResponse("We are at product view")
